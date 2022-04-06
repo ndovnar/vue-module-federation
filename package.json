@@ -1,0 +1,23 @@
+{
+  "name": "vue-module-federation-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "host",
+      "container"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "serve": "lerna run --parallel serve",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "author": "Dovnar Nikolay <nvdovnar@gmail.com>",
+  "license": "ISC"
+}
